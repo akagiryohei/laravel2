@@ -19,6 +19,8 @@ class CreateProductsTable extends Migration
             $table->string('money','100');
             $table->tinyInteger('del_flg')->default(0);
             $table->string('img','255');
+            $table->string('explanation','255');
+
 
 
 

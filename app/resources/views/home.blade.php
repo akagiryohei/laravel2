@@ -15,6 +15,14 @@
                     @endif
 
                     You are logged in!
+                    <p>
+
+                    <a href="{{ route('products.index') }}">商品一覧</a>
+                    <a href="{{ route('products.create') }}">商品登録</a>
+
+                    
+
+                    </p>
                 </div>
             </div>
         </div>
